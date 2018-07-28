@@ -6,9 +6,9 @@ Exemplo dado na palestra do PyLadies Recife (28/07/2018) sobre [automatização 
 1. Instale as dependências com `pip install -r requirements.txt`
 1. Crie um arquivo `.env` com as seguintes variáveis obrigatórias:
     ```
-    TRELLO_KEY=''
-    TRELLO_TOKEN=''
-    DEFAULT_BOARD_ID=''
+    TRELLO_KEY='sua_key_aqui'
+    TRELLO_TOKEN='seu_token_aqui'
+    DEFAULT_BOARD_ID='board_id_aqui'
     ```
     - `TRELLO_KEY`: Sua developer API key do Trello, [pegue neste link](https://trello.com/app-key)
     - `TRELLO_TOKEN`: Sua API token do Trello, você pode pegá-la no mesmo link acima, clicando em *Token*

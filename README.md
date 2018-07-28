@@ -13,7 +13,7 @@ Exemplo dado na palestra do PyLadies Recife (28/07/2018) sobre [automatização 
     ```
     - `TRELLO_KEY`: Sua developer API key do Trello, [pegue neste link](https://trello.com/app-key)
     - `TRELLO_TOKEN`: Sua API token do Trello, você pode pegá-la no mesmo link acima, clicando em *Token*
-    - `DEFAULT_BOARD_ID`: O id do seu quadro do Trello, você pode usar o helper `get_board_id_from_title()` para descobri-lo facilmente
+    - `DEFAULT_BOARD_ID`: O id do seu quadro do Trello, você pode descobri-lo facilmente rodando seu servidor local e visitando [este link](http://localhost:5000/board-id/seu_username/titulo_da_board) (lembre-se de substituir os parâmetros!)
 1. Para utilizar o Flask localmente, exporte as variáveis de ambiente abaixo:
     ```bash
     $ EXPORT FLASK_ENV=development

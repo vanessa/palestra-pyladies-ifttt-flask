@@ -16,8 +16,10 @@ def get_card_id_from_title(title):
     card_id = [
         card['id'] for card in response
         if card['name'] == title
-    ][0]
-    return card_id
+    ]
+    if not card_id:
+        return 'Este cartão não existe. Lembre-se de informar o nome exato!'
+    return card_id[0]
 
 def add_and_mark_checklist(card_id, text, checked=False):
     # Set the checklist variables
@@ -46,5 +48,7 @@ def get_board_id_from_title(username, title):
     board_id = [
         board['id'] for board in response
         if board['name'] == title
-    ][0]
-    return board_id
+    ]
+    if not board_id:
+        return 'Esta board não existe. Lembre-se de informar o nome exato!'
+    return board_id[0]

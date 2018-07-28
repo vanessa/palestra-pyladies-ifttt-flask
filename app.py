@@ -16,7 +16,7 @@ def ifttt_working():
     add_and_mark_checklist(card_id, 'Mostrar o IFTTT funcionando', checked=True)
     return "Done!"
 
-@app.route('/board-id', methods=['GET'])
-def get_board_id():
-    board_id = get_board_id_from_title('vanessabarreiros', 'Hiring')
+@app.route('/board-id/<username>/<title>', methods=['GET'])
+def get_board_id(username, title):
+    board_id = get_board_id_from_title(username, title)
     return board_id

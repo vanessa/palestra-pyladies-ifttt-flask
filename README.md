@@ -2,6 +2,7 @@
 Exemplo dado na palestra do PyLadies Recife (28/07/2018) sobre [automatização de tarefas com Python e IFTTT](http://bit.ly/auto-py), utilizando Flask.
 
 ## Rodando
+1. Clone este repositório
 1. Crie um ambiente virtual e o ative
 1. Instale as dependências com `pip install -r requirements.txt`
 1. Crie um arquivo `.env` com as seguintes variáveis obrigatórias:

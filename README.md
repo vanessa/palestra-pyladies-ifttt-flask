@@ -24,6 +24,6 @@ Exemplo dado na palestra do PyLadies Recife (28/07/2018) sobre [automatização 
 ## Utilizando com IFTTT
 1. Instale e rode o [ngrok](https://ngrok.com) (lembre-se de apontar para a porta do seu servidor do Flask, que geralmente é 5000)
 1. Crie um novo applet com o IFTTT, onde:
-    1. Seu *THIS* será o gatilho escolhido, pode ser o **Button widget**
+    1. Seu *THIS* será o gatilho escolhido, pode ser o **Button widget > Press button**
     1. Seu *THAT* será um **Webhook Request > Make a web request** onde você só precisará preencher o campo URL
 1. Salve o applet e tente rodá-lo!
